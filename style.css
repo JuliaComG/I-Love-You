@@ -1,0 +1,34 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo preto */
+body {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Para evitar barras de rolagem */
+}
+
+/* Estilo do botão */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #5f16b3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute; /* Permite mover o botão livremente */
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    background-color: #4f1492;
+}
